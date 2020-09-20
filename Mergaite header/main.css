@@ -1,27 +1,36 @@
 .top{
-    background-color: aqua;
+    display: inline-block;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
 }
 
 .image {
-    width: 10px;
+    display: inline-block;
     float: left;
-    margin-left: 1px;
-    margin-top: 100px;
+    margin-left: 9px;
+    margin-top: 15px;
     
 }
 
 .navigation{
     display: inline-block;
-    background-color: cadetblue;
     float: right;
-    margin-top: 50px;
-    margin-right: 1px;
+    margin-top: 60px;
+    margin-right: 20px;
    
 }
 
 .bars{
-    background-color: crimson;
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+
     
+}
+.button{
+    text-transform: uppercase;
+    border: orangered;
+    border: 5px solid;
+    border-radius: 20px;
+    padding: 7px 10px;
 }
